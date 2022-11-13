@@ -1,4 +1,7 @@
-
-<div class="country__cmp">
-	Country:
+<sly data-sly-use.model="com.anf.core.models.Country"/>
+<div data-sly-test="${model.countries}" class="country__cmp">
+	<span data-country="${model.countries @ context='scriptString'}">Country:${model.countries}</span>
+</div>
+<div data-sly-test="${!model.countries}" >
+	Country:Select a country
 </div>
