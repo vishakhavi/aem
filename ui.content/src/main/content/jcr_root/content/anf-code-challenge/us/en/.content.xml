@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
         cq:template="/conf/anf-code-challenge/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
+        jcr:uuid="0c16aa58-5eea-4525-9744-05338a6a6c0a"
         sling:resourceType="anf-code-challenge/components/page"
         pageTitle="ANF Code Challenge">
         <root
@@ -79,4 +82,27 @@
             </container>
         </root>
     </jcr:content>
+    <exercise-1/>
+    <page-1/>
+    <page-2/>
+    <page-3/>
+    <page-4/>
+    <page-5/>
+    <page-6/>
+    <page-7/>
+    <page-8/>
+    <page-9/>
+    <page-10/>
+    <page-11/>
+    <page-12/>
+    <page-13/>
+    <page-14/>
+    <page-15/>
+    <page-16/>
+    <page-17/>
+    <page-18/>
+    <page-19/>
+    <page-20/>
+    <exercise-2/>
+    <sssaa/>
 </jcr:root>
